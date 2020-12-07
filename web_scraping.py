@@ -3,7 +3,11 @@
 
 
 import requests
-from bs4 import BeautifulSoup as soup
+from bs4 import BeautifulSoup as bs
+with open
 
+site = requests.get("https://keithgalli.github.io/web-scraping/example.html")
 
+soup = bs(site.content)
 
+print(soup.prettify())
