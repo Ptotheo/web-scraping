@@ -4,7 +4,6 @@
 
 import requests
 from bs4 import BeautifulSoup as bs
-with open
 
 site = requests.get("https://keithgalli.github.io/web-scraping/example.html")
 
